@@ -1,31 +1,30 @@
 # Basic
-title: Yan_wd
-subtitle: 一条舔狗的不知名博客
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">下载这个博客主题</a>
-description: 为所欲为所欲为
-creator: <a href="https://yanwd628.github.io">@YAN_weidan</a>
+title: cqjackeylove
+subtitle: 从0-0的CTFer
+welcome_message: Welcome
+description: 天选也是唯一
+creator: <a href="https://cqjackeylove.github.io">@cqjackeylove</a>
 
-url: "https://github.com/yanwd628/yanwd628.github.com"
+url: "https://github.com/cqjackeylove/cqjackeylove.github.com"
 
 permalink: /:year/:month/:title/
 
-# Format
+
 highlighter: rouge
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+
 cover_color: red
 
-# The blog button should not be removed.
+
 blog_button:
     title: Blog
     description: Visit blog
 
-# Navigation buttons in the front page.
-nav:
-    - {title: Projects, description: My Projects, url: 'https://github.com/yanwd628'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
 
-# Pagination
+nav:
+    - {title: Projects, description: My Projects, url: 'https://github.com/cqjackeylove'}
+  
+
 plugins: [jekyll-paginate]
 paginate: 10
 paginate_path: "page/:num/"
@@ -37,13 +36,12 @@ comment:
     
 # Social
 social:
-    #weibo: onevcat
-    github: yanwd628
-    #twitter: onevcat
-    #gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    
+    github: cqjackeylove
+  
+  
+    mail: 2668068433@qq.com
 
-# Google Analytics
 ga:
     # id: your_ga_id
     # host: your_host
