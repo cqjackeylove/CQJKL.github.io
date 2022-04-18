@@ -5,7 +5,7 @@ title:ctfshow_web入门sql
 今天只有熬夜写wp了  
 先从sqlmap这几道题写着走吧   
 201  
-先上payload
+先上payload      
 ![201](asset/image/201.png)
 这道题是想教我们学会sqlmap使用ua和referer注入  
 我最开始倒腾了半天不知道为什么一直注不出来,后来去问了别的大佬一语指出来我的错误,因为我在api/后加了sqlmap.php没有删掉,导致我一直注不出来，我还以为是后面写错了    
