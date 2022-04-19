@@ -25,20 +25,20 @@ title:ctfshow_web入门sql
 
 **204**   
 提示了我们要用cookie，就在后面导入就是，注意此题cooki里的两个都要导入进来哦   
-![204](assets/images/204.png)   
-![2044](assets/images/2044.png)    
+![204](/assets/images/204.png)   
+![2044](/assets/images/2044.png)    
 
 **205**    
 api要鉴权所以加这个   
-![205](assets/images/205.png)   
-![205](assets/images/2055.png)    
+![205](/assets/images/205.png)   
+![205](/assets/images/2055.png)    
 
 **206**    
 注意看传参的id有(""""),因此尝试去闭合   
-![206](assets/images/206.png)    
-![206](assets/images/2066.png)    
+![206](/assets/images/206.png)    
+![206](/assets/images/2066.png)    
 
 **207**   
 提示我们要使用temper,看了wp视频，要引用space2comment的脚本把空格换成/* */进行逃逸   
-![207](assets/images/207.png)   
+![207](/assets/images/207.png)   
 
