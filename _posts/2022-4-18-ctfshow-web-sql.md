@@ -1,8 +1,8 @@
-﻿---
+---
 layout: post
 title: CTFshow-web入门-SQL
 ---
-今天只有熬夜写wp了  
+  
 先从sqlmap这几道题写着走吧   
 >**201**  
 先上payload          
