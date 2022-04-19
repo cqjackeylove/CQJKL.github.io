@@ -40,5 +40,9 @@ api要鉴权所以加这个
 
 >**207**   
 提示我们要使用temper,看了wp视频，要引用space2comment的脚本把空格换成/* */进行逃逸   
-![207](/assets/images/207.png)   
+![207](/assets/images/207.png)    
 
+>**原谅我，来不起sql了，要不我还是写两道命令执行把**
+推荐一篇文章，认真看会有很深的理解对sql注入    
+https://blog.csdn.net/hxhxhxhxx/article/details/107643024   
+等我学有余力对sql在爱的时候再来更新把T--T
