@@ -64,3 +64,18 @@ pos是截取当前字符串第一个
 
 >**web97**   
 ![97](/assets/images/9700.png)    
+这里有md5，用到了md5强碰撞    
+所以利用数组返回NULL   
+?a[]=1&b[]=2   
+![97](/assets/images/9701.png)   
+
+>**web98**   
+![98](/assets/images/9800.png)   
+这道题运用了三元运算   
+第一个是如果get传参，下一次就会把get变成post方式   
+中间两个COOKIE 和 SERVER跟没没用，不用管它   
+于是只用完成最后一个highlight_file三元运算就行了   
+![98](/assets/images/9801.png)   
+
+>**web98**  
+![99](/assets/images/9900.png)  
